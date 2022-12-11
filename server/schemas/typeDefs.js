@@ -11,10 +11,10 @@ const typeDefs = gql`
   }
   type Book {
     _id: ID
-    username: String
-    email: String
-    password: String
-    savedBooks: [Book]
+    authors: [String]
+    description: String
+    bookId: String
+    title: String
   }
 
   # Define which queries the front end is allowed to make and what data is returned
