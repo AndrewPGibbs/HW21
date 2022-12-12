@@ -19,7 +19,7 @@ const typeDefs = gql`
 
   # Define which queries the front end is allowed to make and what data is returned
   type Query {
-    classes: [Class]
+    me: User
   }
 `;
 
